@@ -1,6 +1,10 @@
-# Remix
+# fachridantm.me
 
-This directory is a brief example of a [Remix](https://remix.run/docs) site that can be deployed to Vercel with zero configuration.
+Fachridan's personal website and portfolio 🚀
+- `/`: https://fachridantm.github.io
+- `/resume`:
+
+Currently if need to change, configure in `app/configs/redirects.ts`
 
 ## Deploy Your Own
 
