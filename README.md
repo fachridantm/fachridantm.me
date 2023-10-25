@@ -1,9 +1,10 @@
 # fachridantm.me
 
 Fachridan's personal website and portfolio 🚀
-- `/`: https://fachridantm.github.io
-- `/resume`: https://fachridantm.github.io/assets/pdf/Fachridan%20Tio%20Mu'afa_CV.pdf
-- `/portfolio`: https://fachridantm.github.io/assets/pdf/Fachridan%20Tio%20Mu'afa_Portfolio.pdf
+- `/`: [https://fachridantm.github.io]()
+- `/resume`: [https://fachridantm.github.io/assets/pdf/Fachridan%20Tio%20Mu'afa_CV.pdf]()
+- `/portfolio`: [https://fachridantm.github.io/assets/pdf/Fachridan%20Tio%20Mu'afa_Portfolio.pdf]()
+- `/deck`: [https://speakerdeck.com/fachridantm]()
 
 Currently if need to change, configure in `app/configs/redirects.ts`
 
