@@ -2,7 +2,8 @@
 
 Fachridan's personal website and portfolio 🚀
 - `/`: https://fachridantm.github.io
-- `/resume`:
+- `/resume`: https://fachridantm.github.io/assets/pdf/Fachridan%20Tio%20Mu'afa_CV.pdf
+- `/portfolio`: https://fachridantm.github.io/assets/pdf/Fachridan%20Tio%20Mu'afa_Portfolio.pdf
 
 Currently if need to change, configure in `app/configs/redirects.ts`
 
