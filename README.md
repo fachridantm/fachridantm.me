@@ -5,6 +5,8 @@ Fachridan's personal website and portfolio 🚀
 - `/resume`: [https://fachridantm.github.io/assets/pdf/Fachridan%20Tio%20Mu'afa_CV.pdf]()
 - `/portfolio`: [https://fachridantm.github.io/assets/pdf/Fachridan%20Tio%20Mu'afa_Portfolio.pdf]()
 - `/deck`: [https://speakerdeck.com/fachridantm]()
+- `/speakership`: [https://drive.google.com/drive/folders/1UEq_uKNvUO9zBm4s-eWJHzgGjz0mx-68?usp=sharing]()
+- `/mentorship`: [https://calendar.app.google/AvPhX5gM7ZeZvdFj9]()
 
 Currently if need to change, configure in `app/configs/redirects.ts`
 
