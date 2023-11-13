@@ -1,4 +1,3 @@
-import { cssBundleHref } from "@remix-run/css-bundle";
 import {
   Links,
   LiveReload,
@@ -11,6 +10,23 @@ import {
 } from "@remix-run/react";
 import { Analytics } from "@vercel/analytics/react";
 import type { LinksFunction } from "@vercel/remix";
+import type { ScriptsFunction } from "@remix-run/node";
+
+export const scripts: ScriptsFunction = () => [
+  { async: "", src: "https://www.google-analytics.com/analytics.js" },
+  { src: "/vendor/jquery/jquery.min.js" },
+  { src: "/vendor/bootstrap/js/bootstrap.bundle.min.js" },
+  { src: "/vendor/jquery.easing/jquery.easing.min.js" },
+  { src: "/vendor/waypoints/jquery.waypoints.min.js" },
+  { src: "/vendor/counterup/counterup.min.js" },
+  { src: "/vendor/owl.carousel/owl.carousel.min.js" },
+  { src: "/vendor/isotope-layout/isotope.pkgd.min.js" },
+  { src: "/vendor/venobox/venobox.min.js" },
+  { src: "/vendor/glightbox/js/glightbox.min.js" },
+  { src: "/vendor/swiper/swiper-bundle.min.js" },
+  { src: "/vendor/purecounter/purecounter_vanilla.js" },
+  { src: "/vendor/js/main.js" },
+];
 
 export const links: LinksFunction = () => [
   ...(manifest ? [{ rel: "manifest", href: manifest }] : []),
