@@ -46,12 +46,12 @@ export default function Index() {
       <meta
         property="og:image"
         itemProp="image"
-        content="https://fachridantm.me/public/assets/img/profile-wide.jpg"
+        content="https://fachridantm.me/public/img/profile-wide.jpg"
       />
       <meta
         property="og:image:secure_url"
         itemProp="image"
-        content="https://fachridantm.me/public/assets/img/profile-wide.jpg"
+        content="https://fachridantm.me/public/img/profile-wide.jpg"
       />
       <meta property="og:image:type" content="image/jpg" />
       <meta property="og:type" content="Personal Website" />
@@ -66,10 +66,10 @@ export default function Index() {
       />
       <meta
         name="twitter:image"
-        content="https://fachridantm.me/public/assets/img/profile-wide.jpg"
+        content="https://fachridantm.me/public/img/profile-wide.jpg"
       />
       {/* Favicons */}
-      <link rel="icon" type="image/png" href="public/assets/img/favicon.png" />
+      <link rel="icon" type="image/png" href="public/img/favicon.png" />
       {/* Google Fonts */}
       <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -77,30 +77,30 @@ export default function Index() {
       />
       {/* Vendor CSS Files */}
       <link
-        href="public/assets/vendor/bootstrap/css/bootstrap.min.css"
+        href="public/vendor/bootstrap/css/bootstrap.min.css"
         rel="stylesheet"
       />
       <link
-        href="public/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+        href="public/vendor/bootstrap-icons/bootstrap-icons.css"
         rel="stylesheet"
       />
-      <link href="public/assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+      <link href="public/vendor/icofont/icofont.min.css" rel="stylesheet" />
       <link
-        href="public/assets/vendor/glightbox/css/glightbox.min.css"
+        href="public/vendor/glightbox/css/glightbox.min.css"
         rel="stylesheet"
       />
-      <link href="public/assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+      <link href="public/vendor/remixicon/remixicon.css" rel="stylesheet" />
       <link
-        href="public/assets/vendor/owl.carousel/public/assets/owl.carousel.min.css"
+        href="public/vendor/owl.carousel/public/owl.carousel.min.css"
         rel="stylesheet"
       />
       <link
-        href="public/assets/vendor/boxicons/css/boxicons.min.css"
+        href="public/vendor/boxicons/css/boxicons.min.css"
         rel="stylesheet"
       />
-      <link href="public/assets/vendor/venobox/venobox.css" rel="stylesheet" />
+      <link href="public/vendor/venobox/venobox.css" rel="stylesheet" />
       <link
-        href="public/assets/vendor/swiper/swiper-bundle.min.css"
+        href="public/vendor/swiper/swiper-bundle.min.css"
         rel="stylesheet"
       />
       <link
@@ -108,7 +108,7 @@ export default function Index() {
         rel="stylesheet"
       />
       {/* Template Main CSS File */}
-      <link href="public/assets/css/style.css" rel="stylesheet" />
+      <link href="public/css/style.css" rel="stylesheet" />
       {/* Crsip Chat */}
       {/* =======================================================
     * Template Name: Personal - v2.1.0
@@ -163,7 +163,7 @@ export default function Index() {
               </li>
               <li>
                 <a
-                  href="public/assets/pdf/Fachridan Tio Mu'afa_CV.pdf"
+                  href="public/pdf/Fachridan Tio Mu'afa_CV.pdf"
                   target="_blank"
                 >
                   {" "}
@@ -229,7 +229,7 @@ export default function Index() {
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
               <img
-                src="public/assets/img/profile.webp"
+                src="public/img/profile.webp"
                 className="img-fluid"
                 alt=""
               />
@@ -246,7 +246,7 @@ export default function Index() {
                 Kotlin and its implementation on Android since I joining Android
                 Developer Club. Hence, I was able to get an award as
                 <a
-                  href="public/assets/img/awards/adc.webp"
+                  href="public/img/awards/adc.webp"
                   data-gallery="adcOnly"
                   data-glightbox="type: image"
                   className="portfolio-details-lightbox"
@@ -264,7 +264,7 @@ export default function Index() {
                 </a>{" "}
                 and graduated with Google Certified as{" "}
                 <a
-                  href="public/assets/img/certifications/aad-cert.webp"
+                  href="public/img/certifications/aad-cert.webp"
                   data-gallery="aadOnly"
                   data-glightbox="type: image"
                   className="portfolio-details-lightbox"
@@ -432,7 +432,7 @@ export default function Index() {
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                   </p>
                   <img
-                    src="public/assets/img/recommendations/aji.jpeg"
+                    src="public/img/recommendations/aji.jpeg"
                     className="testimonial-img"
                     alt=""
                   />
@@ -461,7 +461,7 @@ export default function Index() {
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                   </p>
                   <img
-                    src="public/assets/img/recommendations/fitroh.jpeg"
+                    src="public/img/recommendations/fitroh.jpeg"
                     className="testimonial-img"
                     alt=""
                   />
@@ -489,7 +489,7 @@ export default function Index() {
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                   </p>
                   <img
-                    src="public/assets/img/recommendations/mas-agung.jpeg"
+                    src="public/img/recommendations/mas-agung.jpeg"
                     className="testimonial-img"
                     alt=""
                   />
@@ -529,7 +529,7 @@ export default function Index() {
                 data-aos-delay={100}
               >
                 <img
-                  src="public/assets/img/education/uin-jakarta.webp"
+                  src="public/img/education/uin-jakarta.webp"
                   className="img-fluid"
                   alt=""
                 />
@@ -559,7 +559,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/aad-cert.webp"
+                    src="public/img/certifications/aad-cert.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -567,7 +567,7 @@ export default function Index() {
                     <h4>Google Certified - Associate Android Developer</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/aad-cert.webp"
+                        href="public/img/certifications/aad-cert.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -595,7 +595,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-compose.webp"
+                    src="public/img/certifications/dicoding-compose.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -606,7 +606,7 @@ export default function Index() {
                     </h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-compose.webp"
+                        href="public/img/certifications/dicoding-compose.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -634,7 +634,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-android-expert.webp"
+                    src="public/img/certifications/dicoding-android-expert.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -642,7 +642,7 @@ export default function Index() {
                     <h4>Dicoding - Menjadi Android Developer Expert</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-android-expert.webp"
+                        href="public/img/certifications/dicoding-android-expert.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -670,7 +670,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-android-intermediate.webp"
+                    src="public/img/certifications/dicoding-android-intermediate.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -680,7 +680,7 @@ export default function Index() {
                     </h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-android-intermediate.webp"
+                        href="public/img/certifications/dicoding-android-intermediate.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -708,7 +708,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-android-fundamental.webp"
+                    src="public/img/certifications/dicoding-android-fundamental.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -716,7 +716,7 @@ export default function Index() {
                     <h4>Dicoding - Belajar Fundamental Aplikasi Android</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-android-fundamental.webp"
+                        href="public/img/certifications/dicoding-android-fundamental.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -744,7 +744,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-android-pemula.webp"
+                    src="public/img/certifications/dicoding-android-pemula.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -754,7 +754,7 @@ export default function Index() {
                     </h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-android-pemula.webp"
+                        href="public/img/certifications/dicoding-android-pemula.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -782,7 +782,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-solid.webp"
+                    src="public/img/certifications/dicoding-solid.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -790,7 +790,7 @@ export default function Index() {
                     <h4>Dicoding - Belajar Prinsip Pemrograman SOLID</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-solid.webp"
+                        href="public/img/certifications/dicoding-solid.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -818,7 +818,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-kotlin.webp"
+                    src="public/img/certifications/dicoding-kotlin.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -826,7 +826,7 @@ export default function Index() {
                     <h4>Dicoding - Memulai Pemrograman Dengan Kotlin</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-kotlin.webp"
+                        href="public/img/certifications/dicoding-kotlin.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -854,7 +854,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-java.webp"
+                    src="public/img/certifications/dicoding-java.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -862,7 +862,7 @@ export default function Index() {
                     <h4>Dicoding - Memulai Pemrograman Dengan Java</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-java.webp"
+                        href="public/img/certifications/dicoding-java.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -890,7 +890,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-logic-programming.webp"
+                    src="public/img/certifications/dicoding-logic-programming.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -901,7 +901,7 @@ export default function Index() {
                     </h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-logic-programming.webp"
+                        href="public/img/certifications/dicoding-logic-programming.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -929,7 +929,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-software-developer-prep.webp"
+                    src="public/img/certifications/dicoding-software-developer-prep.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -940,7 +940,7 @@ export default function Index() {
                     </h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-software-developer-prep.webp"
+                        href="public/img/certifications/dicoding-software-developer-prep.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -968,7 +968,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-career-as-software-developer.webp"
+                    src="public/img/certifications/dicoding-career-as-software-developer.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -976,7 +976,7 @@ export default function Index() {
                     <h4>Dicoding - Meniti Karier sebagai Software Developer</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-career-as-software-developer.webp"
+                        href="public/img/certifications/dicoding-career-as-software-developer.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -1004,7 +1004,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-github.webp"
+                    src="public/img/certifications/dicoding-github.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -1012,7 +1012,7 @@ export default function Index() {
                     <h4>Dicoding - Belajar Dasar Git dengan GitHub</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-github.webp"
+                        href="public/img/certifications/dicoding-github.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -1040,7 +1040,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/certifications/dicoding-ux-design.webp"
+                    src="public/img/certifications/dicoding-ux-design.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -1048,7 +1048,7 @@ export default function Index() {
                     <h4>Dicoding - Belajar Dasar UX Design</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/certifications/dicoding-ux-design.webp"
+                        href="public/img/certifications/dicoding-ux-design.webp"
                         data-gallery="certificateGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -1088,7 +1088,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/awards/bangkit-mentor.webp"
+                    src="public/img/awards/bangkit-mentor.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -1096,7 +1096,7 @@ export default function Index() {
                     <h4>Bangkit 2023 H1 - Mentor in Mobile Development Path</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/awards/bangkit-mentor.webp"
+                        href="public/img/awards/bangkit-mentor.webp"
                         data-gallery="awardsGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -1105,7 +1105,7 @@ export default function Index() {
                       </a>
                       <a
                         className="clipboard"
-                        href="https://fachridantm.me/public/assets/img/awards/bangkit-mentor.webp"
+                        href="https://fachridantm.me/public/img/awards/bangkit-mentor.webp"
                         target="_blank"
                       >
                         <i className="bx bx-clipboard" />
@@ -1118,7 +1118,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/awards/gdsc-lead-graduate.webp"
+                    src="public/img/awards/gdsc-lead-graduate.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -1126,7 +1126,7 @@ export default function Index() {
                     <h4>GDSC Lead 2021 - Graduate</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/awards/gdsc-lead-graduate.webp"
+                        href="public/img/awards/gdsc-lead-graduate.webp"
                         data-gallery="awardsGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -1135,7 +1135,7 @@ export default function Index() {
                       </a>
                       <a
                         className="clipboard"
-                        href="https://fachridantm.me/public/assets/img/awards/gdsc-lead-graduate.webp"
+                        href="https://fachridantm.me/public/img/awards/gdsc-lead-graduate.webp"
                         target="_blank"
                       >
                         <i className="bx bx-clipboard" />
@@ -1148,7 +1148,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/awards/bangkit-graduate.webp"
+                    src="public/img/awards/bangkit-graduate.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -1156,7 +1156,7 @@ export default function Index() {
                     <h4>Bangkit 2022 - Graduate in Mobile Development Path</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/awards/bangkit-graduate.webp"
+                        href="public/img/awards/bangkit-graduate.webp"
                         data-gallery="awardsGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -1165,7 +1165,7 @@ export default function Index() {
                       </a>
                       <a
                         className="clipboard"
-                        href="https://fachridantm.me/public/assets/img/awards/bangkit-graduate.webp"
+                        href="https://fachridantm.me/public/img/awards/bangkit-graduate.webp"
                         target="_blank"
                       >
                         <i className="bx bx-clipboard" />
@@ -1178,7 +1178,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/awards/adc.webp"
+                    src="public/img/awards/adc.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -1186,7 +1186,7 @@ export default function Index() {
                     <h4>HIMTI DEV - Best Participant in Android Developer Club</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/awards/adc.webp"
+                        href="public/img/awards/adc.webp"
                         data-gallery="awardsGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -1195,7 +1195,7 @@ export default function Index() {
                       </a>
                       <a
                         className="clipboard"
-                        href="https://fachridantm.me/public/assets/img/awards/adc.webp"
+                        href="https://fachridantm.me/public/img/awards/adc.webp"
                         target="_blank"
                       >
                         <i className="bx bx-clipboard" />
@@ -1208,7 +1208,7 @@ export default function Index() {
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
                   <img
-                    src="public/assets/img/awards/olim-saintek-21-basket.webp"
+                    src="public/img/awards/olim-saintek-21-basket.webp"
                     className="img-thumbnail"
                     alt=""
                   />
@@ -1216,7 +1216,7 @@ export default function Index() {
                     <h4>Olimpiade Saintek 2021 - Juara 1 Lomba Basket</h4>
                     <div className="portfolio-links">
                       <a
-                        href="public/assets/img/awards/olim-saintek-21-basket.webp"
+                        href="public/img/awards/olim-saintek-21-basket.webp"
                         data-gallery="awardsGallery"
                         data-glightbox="type: image"
                         className="portfolio-details-lightbox"
@@ -1225,7 +1225,7 @@ export default function Index() {
                       </a>
                       <a
                         className="clipboard"
-                        href="https://fachridantm.me/public/assets/img/awards/olim-saintek-21-basket.webp"
+                        href="https://fachridantm.me/public/img/awards/olim-saintek-21-basket.webp"
                         target="_blank"
                       >
                         <i className="bx bx-clipboard" />
@@ -1816,7 +1816,7 @@ export default function Index() {
               </center>
               <div className="portfolio-wrap">
                 <img
-                  src="public/assets/img/projects/details/fishku-details.png"
+                  src="public/img/projects/details/fishku-details.png"
                   className="img-thumbnail"
                   alt=""
                 />
@@ -1842,7 +1842,7 @@ export default function Index() {
               </center>
               <div className="portfolio-wrap">
                 <img
-                  src="public/assets/img/projects/details/selasar-details.png"
+                  src="public/img/projects/details/selasar-details.png"
                   className="img-thumbnail"
                   alt=""
                 />
@@ -1868,7 +1868,7 @@ export default function Index() {
               </center>
               <div className="portfolio-wrap">
                 <img
-                  src="public/assets/img/projects/details/bangkit-details.png"
+                  src="public/img/projects/details/bangkit-details.png"
                   className="img-thumbnail"
                   alt=""
                 />
@@ -1894,7 +1894,7 @@ export default function Index() {
               </center>
               <div className="portfolio-wrap">
                 <img
-                  src="public/assets/img/projects/details/dicoding-details.png"
+                  src="public/img/projects/details/dicoding-details.png"
                   className="img-thumbnail"
                   alt=""
                 />
@@ -1921,7 +1921,7 @@ export default function Index() {
               </center>
               <div className="portfolio-wrap">
                 <img
-                  src="public/assets/img/projects/details/github-details.png"
+                  src="public/img/projects/details/github-details.png"
                   className="img-thumbnail"
                   alt=""
                 />
@@ -1947,7 +1947,7 @@ export default function Index() {
               </center>
               <div className="portfolio-wrap">
                 <img
-                  src="public/assets/img/projects/details/ibl-details-1.png"
+                  src="public/img/projects/details/ibl-details-1.png"
                   className="img-thumbnail"
                   alt=""
                 />
@@ -1973,7 +1973,7 @@ export default function Index() {
               </center>
               <div className="portfolio-wrap">
                 <img
-                  src="public/assets/img/projects/details/sv-details-1.png"
+                  src="public/img/projects/details/sv-details-1.png"
                   className="img-thumbnail"
                   alt=""
                 />
