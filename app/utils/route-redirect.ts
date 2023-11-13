@@ -8,6 +8,6 @@ export function redirectRouteToURL(request: Request) {
         return item.path.trim() === url.pathname;
     });
 
-    if (!foundItem) return json({ statusText: "Not Found" }, { status: 404 },);
+    if (!foundItem) return json(null, { status: 404 });
     return redirect(foundItem?.url);
 }
