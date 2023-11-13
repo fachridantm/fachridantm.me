@@ -1,5 +1,7 @@
 import type { MetaFunction } from "@vercel/remix";
 
+export const config = { runtime: "edge" };
+
 export const meta: MetaFunction = () => [{ title: "Bangkit Merch Store" }];
 
 export default function Bangkit() {
