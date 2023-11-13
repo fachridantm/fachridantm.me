@@ -1,63 +1,14 @@
 import type { MetaFunction } from "@vercel/remix";
+import { withPrefix } from "@remix-run/react";
 
 export const config = { runtime: "bangkit" };
 
-export const meta: MetaFunction = () => [{ title: "Bangkit" }];
+export const meta: MetaFunction = () => [{ title: "Bangkit Merch Store" }];
 
 export default function Bangkit() {
   return (
     <>
-      {/* Favicons */}
-      <link href="../public/img/favicon.png" rel="icon" />
-      {/* Google Fonts */}
-      <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet"
-      />
-      {/* Vendor CSS Files */}
-      <link
-        href="../public/vendor/bootstrap/css/bootstrap.min.css"
-        rel="stylesheet"
-      />
-      <link
-        href="../public/vendor/bootstrap-icons/bootstrap-icons.css"
-        rel="stylesheet"
-      />
-      <link
-        href="../public/vendor/icofont/icofont.min.css"
-        rel="stylesheet"
-      />
-      <link
-        href="../public/vendor/remixicon/remixicon.css"
-        rel="stylesheet"
-      />
-      <link
-        href="../public/vendor/owl.carousel/public/owl.carousel.min.css"
-        rel="stylesheet"
-      />
-      <link
-        href="../public/vendor/boxicons/css/boxicons.min.css"
-        rel="stylesheet"
-      />
-      <link href="../public/vendor/venobox/venobox.css" rel="stylesheet" />
-      <link
-        href="../public/vendor/swiper/swiper-bundle.min.css"
-        rel="stylesheet"
-      />
-      <link
-        href="../public/vendor/glightbox/css/glightbox.min.css"
-        rel="stylesheet"
-      />
-      {/* Template Main CSS File */}
-      <link href="../public/css/style.css" rel="stylesheet" />
-      {/* =======================================================
-    * Template Name: Personal - v2.2.0
-    * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== */}
       <main id="main">
-        {/* ======= Portfolio Details ======= */}
         <div id="portfolio-details" className="portfolio-details">
           <div className="container">
             <div className="row">
@@ -65,14 +16,12 @@ export default function Bangkit() {
                 <h2 className="portfolio-title">Bangkit Merch Store</h2>
                 <div className="portfolio-details-slider swiper">
                   <div className="swiper-wrapper align-items-center">
-                    {/* <div class="swiper-slide"> */}
                     <img
-                      src="../public/img/projects/details/bangkit-details.png"
+                      src={withPrefix("/img/projects/details/bangkit-details.png")}
                       width="100%"
                       height="100%"
                       alt=""
                     />
-                    {/* </div> */}
                   </div>
                   <div className="swiper-pagination" />
                 </div>
@@ -111,11 +60,7 @@ export default function Bangkit() {
             </div>
           </div>
         </div>
-        {/* End Portfolio Details */}
       </main>
-      {/* End #main */}
-      {/* Vendor JS Files */}
-      {/* Template Main JS File */}
     </>
   );
 }
