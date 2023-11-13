@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@vercel/remix";
-import { withPrefix } from "@remix-run/react";
 
 export const config = { runtime: "bangkit" };
 
@@ -17,7 +16,7 @@ export default function Bangkit() {
                 <div className="portfolio-details-slider swiper">
                   <div className="swiper-wrapper align-items-center">
                     <img
-                      src={withPrefix("/img/projects/details/bangkit-details.png")}
+                      src="/img/projects/details/bangkit-details.png"
                       width="100%"
                       height="100%"
                       alt=""
