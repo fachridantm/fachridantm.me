@@ -6,7 +6,7 @@ export const meta: MetaFunction = () => {
     { title: "Fachridan Tio Mu'afa - Personal Website" },
     {
       name: "description",
-      content: "SWE - Android • Building goo.gle/googledevsid & @gdgjakarta • #GoogleCertified - Associate Android Developer • Ex-GDSC Lead @ GDSC UIN Syarif Hidayatullah Jakarta",
+      content: "SWE - Android | GDG Jakarta Co-Organizer | #GoogleCertified - Associate Android Developer | Ex-GDSC Lead @ GDSC UIN Jakarta",
     },
   ];
 };
