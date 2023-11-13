@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@vercel/remix";
 
-export const config = { runtime: "bangkit" };
+export const config = { runtime: "/projects/bangkit" };
 
 export const meta: MetaFunction = () => [{ title: "Bangkit Merch Store" }];
 
