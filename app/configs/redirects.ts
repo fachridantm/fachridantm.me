@@ -5,4 +5,5 @@ export const configRedirects = [
     { path: "/deck", url: "https://speakerdeck.com/fachridantm" },
     { path: "/speakership", url: "https://drive.google.com/drive/folders/1UEq_uKNvUO9zBm4s-eWJHzgGjz0mx-68?usp=sharing" },
     { path: "/mentorship", url: "https://calendar.app.google/AvPhX5gM7ZeZvdFj9" },
+    { path: "/podcast-at-dcoc-summit", url: "https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit/sessions/podcast-harnessing-discord-s-power-building-thriving-online-communities" },
 ];  
