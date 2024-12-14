@@ -8,6 +8,7 @@ Fachridan's personal website and portfolio 🚀
 - `/speakership`: [https://drive.google.com/drive/folders/1UEq_uKNvUO9zBm4s-eWJHzgGjz0mx-68?usp=sharing]()
 - `/mentorship`: [https://calendar.app.google/AvPhX5gM7ZeZvdFj9]()
 - `/podcast-at-dcoc-summit`: [https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit/sessions/podcast-harnessing-discord-s-power-building-thriving-online-communities]()
+- `/spotify`: [https://open.spotify.com/user/31v3l3c5a6hrtxhjpjzuvecrsrmy?trackId=4YxEeCKhUl1DawPzsxCPbq]()
 
 Currently if need to change, configure in `app/configs/redirects.ts`
 
