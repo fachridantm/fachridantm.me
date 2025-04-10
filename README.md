@@ -9,6 +9,7 @@ Fachridan's personal website and portfolio 🚀
 - `/mentorship`: [https://calendar.app.google/AvPhX5gM7ZeZvdFj9]()
 - `/podcast-at-dcoc-summit`: [https://rsvp.withgoogle.com/events/developer-creators-and-online-communities-summit/sessions/podcast-harnessing-discord-s-power-building-thriving-online-communities]()
 - `/spotify`: [https://open.spotify.com/user/31v3l3c5a6hrtxhjpjzuvecrsrmy?trackId=4YxEeCKhUl1DawPzsxCPbq]()
+- `/linkedin`: [https://linkedin.com/in/fachridantm]()
 
 Currently if need to change, configure in `app/configs/redirects.ts`
 
